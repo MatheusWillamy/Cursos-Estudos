@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumentar e Diminuir</title>
+
+    <style>
+
+        div#quadrado{
+            background: cyan;
+            width: 100px;
+            height: 100px;
+
+        }
+        div#aumentar{
+            background: darkgreen;
+            width: 50px;
+            height: 50px;
+            margin-top: 100px;
+        }
+        div#diminuir{
+            background: rgb(128, 138, 128);
+            width: 50px;
+            height: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id= "quadrado"></div>
+    <div id= "aumentar"></div>
+    <div id= "diminuir"></div>
+
+    <script>
+        var quadrado = window.document.getElementById("quadrado")
+        var aumentar = window.document.getElementById("aumentar")
+        var diminuir = window.document.getElementById("diminuir")
+
+        aumentar.addEventListener('mouseenter', aumentarr)
+        diminuir.addEventListener('mouseenter', diminuirr)
+
+        function aumentarr(){
+            for (){
+                
+                quadrado.style.width = "200px";
+                quadrado.style.height = "100px";
+            
+
+            }
+            
+        }
+
+        function diminuirr(){
+            quadrado.style.width = "20px";
+            quadrado.style.height = "10px";
+            
+        }
+    </script>
+</body>
+</html>
