@@ -1,0 +1,17 @@
+{
+  "name": "felipe-rocha",
+  "version": "1.0.0",
+  "description": "Curso de Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
